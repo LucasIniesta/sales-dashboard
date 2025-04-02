@@ -4,6 +4,9 @@ import { createRoot } from 'react-dom/client'
 import App from './App.tsx'
 import { GlobalStyle, darkTheme, lightTheme } from './styles'
 
+darkTheme
+lightTheme
+
 createRoot(document.getElementById('root')!).render(
   <StrictMode>
     <ThemeProvider theme={lightTheme}>
